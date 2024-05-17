@@ -1,0 +1,97 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  padding: 20px;
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+/* Container for color generator */
+.random-color-generator-container {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  max-width: 1200px; /* Increased maximum width */
+  margin: 0 auto; /* Center horizontally */
+}
+
+/* Hex color container */
+.hex-color-container {
+  width: 100vw;
+  height: 50vh;
+  background-color: #ffcc80;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  color: #333;
+  transition: background-color 0.3s ease;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hex-color-container:hover {
+  background-color: #ffb74d;
+}
+
+.hex-color-value {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* RGB color container */
+.rgb-color-container {
+  background-color: #90caf9;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  color: #333;
+  transition: background-color 0.3s ease;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.rgb-color-container:hover {
+  background-color: #64b5f6;
+}
+
+.rgb-color-value {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Buttons */
+button {
+  padding: 12px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #d0327d;
+  color: #fff;
+}
